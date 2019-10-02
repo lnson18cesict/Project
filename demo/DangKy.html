@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Đăng Ký </title>
+</head>
+<style type="text/css">
+	.container{
+		margin: auto;
+		width: 700px;
+		height: 350px;
+		border-style: groove;
+		border-color: red;
+	}
+	table{
+		margin: auto;
+	}
+	.input{
+		width: 100%;
+	}
+</style>
+<body>
+	<div class="container">
+		<h1 align="center"> Đăng ký </h1>
+		<table >
+			<tr>
+				<td></td>
+				<td>
+					<input type="radio" name="chon"> Cá Nhân
+				</td>
+				<td>
+					<input type="radio" name="chon"> Công ty/Tổ chức 
+				</td>
+			</tr>
+			<tr>
+				<td>Họ và tên&#42;</td>
+				<td colspan="2">
+					<input type="text" name="input" class="input">
+				</td>
+			</tr>
+			<tr>
+				<td>Số điện thoại&#42;</td>
+				<td colspan="2">
+					<input type="text" name="input" class="input">
+				</td>
+			</tr>
+			<tr>
+				<td>Ngày sinh&#42;</td>
+				<td colspan="2">
+					<input type="date" name="date" class="input">
+				</td>
+			</tr>
+			<tr>
+				<td>Đại chỉ</td>
+				<td colspan="2">
+					<input type="text" name="input" class="input">
+				</td>
+				<td>
+					<input type="radio" name="city"> TP.HCM
+				</td>
+				<td>
+					<select>
+						<option>Quận 1</option>
+						<option>Đà Nẵng</option>
+						<option>Nha Trang</option>
+						<option>Gia Lai</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>
+					<input type="radio" name="city"> Tỉnh thành Khác
+				</td>
+				<td>
+					<select>
+						<option>Hà Nội</option>
+						<option>Đà Nẵng</option>
+						<option>Nha Trang</option>
+						<option>Gia Lai</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Giới tính</td>
+				<td>
+					<input type="radio" name="sex" value="0">Nam &nbsp;
+					<input type="radio" name="sex" value="1">Nữ
+				</td>
+			</tr>
+			<tr>
+				<td>Email&#42;</td>
+				<td colspan="2">
+					<input type="text" name="text" class="input">
+				</td>
+			</tr>
+			<tr>
+				<td>Mật Khẩu&#42;</td>
+				<td colspan="2">
+					<input type="password" name="pass" class="input">
+				</td>
+			</tr>
+			<tr>
+				<td> Nhập lại mật Khẩu &emsp;&emsp;</td>
+				<td colspan="2">
+					<input type="text" name="pass" class="input">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>
