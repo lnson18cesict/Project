@@ -1,0 +1,21 @@
+.navbar{
+	background:  #36393f !important;
+}
+.conf ul li .item{
+	color: white !important;
+}
+.conf p{
+	color: white !important;
+}
+.btn-group{
+	margin-left: 45%;
+}
+.footer {
+	margin-top: 2%;
+	background:  #36393f !important;
+	height: 50px;
+}
+.footer p{
+	color: white;
+	padding-top: 1%;
+}

@@ -1,0 +1,28 @@
+.slide img{
+	height: 500px !important;
+}
+.card{
+	margin-top: 5%;
+	height: 95%;
+}
+.cont img{
+	width: 89%;
+	height: auto;
+}
+.navbar{
+	background:  #36393f !important;
+}
+.conf ul li  .item{
+	color: white !important;
+}
+.conf p{
+	color: white !important;
+}
+.footer {
+	background:  #36393f !important;
+	height: 100px;
+}
+.footer p{
+	color: white;
+	padding-top: 3%;
+}
